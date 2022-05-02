@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+  background-color: aliceblue;
+}
+
+.header {
+  background-image: url('./img/img1.jpg');
+  background-size: cover;
+  background-position: 0 -60vh;
+  position: relative;
+  height: 65vh;
+  border-radius: 0 0 15px 15px;
+}
+
+.header-img img {
+  position: absolute;
+  height: 168px;
+  width: 168px;
+  border-radius: 50%;
+  top: 93%;
+  left: 6%;
+}
+
+.header-name span {
+  position: absolute;
+  top: 107%;
+  left: 23%;
+  font-size: 40px;
+  color: black;
+}
+.header-text span{
+  display: inline-block;
+  font-size: 20px;
+}
+.name{
+  position: absolute;
+  top: 120%;
+  left: 23%;
+  font-weight: 500;
+}
+.tall{
+  position: absolute;
+  top: 126%;
+  left: 23%;
+  font-weight: 350;
+}
+.link-fb{
+  position: absolute;
+  top: 132%;
+  left: 23%;
+  font-weight: 350;
+}
+.tiktok{
+    position: absolute;
+    top: 138%;
+    left: 23%;
+    font-weight: 350;
+}
+.header-menu{
+  position: absolute;
+  top: 170%;
+  left: 8%;
+}
+li{
+  display: inline-block;
+  padding: 28px 16px;
+}
+li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ab9999;
+}
+.header-story {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  top: 150%;
+  left: 23%;
+}
+.story-item img{
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  border: #ab9999 solid 1px;
+  padding: 2px;
+}
+.story-item span{
+  margin-left: 18px;
+  font-size: 20px;
+}
+.main-content{
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30%;
+  grid-gap: 10%;
+}
+.gioiThieu{
+  height: 380px;
+  width: 400px;
+  border: #ab9999 solid 1px;
+  border-radius: 3px;
+  padding: 15px;
+}
+.gt-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gt-text p{
+  position: absolute;
+  margin-top: 10px;
+  left: 14%;
+}
+.gt-item a{
+  position: absolute;
+  margin-top: 10px;
+  left: 14%;
+}
+.gT-img{
+  margin-top: 10px;
+}
+.insta{
+  text-decoration: none;
+  color: rgb(28, 40, 220);
+}
+button{
+  border: solid none;
+  border-radius: 17px;
+  padding: 4px;
+}
+.conten-baiViet{
+
+}
